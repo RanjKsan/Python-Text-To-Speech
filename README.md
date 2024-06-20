@@ -1,1 +1,5 @@
 # Python-Text-To-Speech
+### Text-to-Speech Conversion Script Overview
+This Python script enables text-to-speech conversion using `pyttsx3`, `gtts`, and `pydub` libraries. It starts by initializing `pyttsx3` for speech synthesis and prompts users to enter the text they want to convert. Language selection is facilitated by specifying a language code, and speech speed can be adjusted.
+Voice customization includes selecting accents and genders from available options. The script dynamically searches for voices that match the chosen language and accent preferences, ensuring accurate voice selection. If no specific voice match is found, a default voice is utilized.
+Once configured, the script synthesizes the input text into speech and plays it through the speakers. Additionally, it saves the generated speech as an MP3 file (`generated_speech.mp3`), providing a permanent record of the audio output. This script offers a versatile solution for converting text to speech with customizable language settings and voice characteristics.
